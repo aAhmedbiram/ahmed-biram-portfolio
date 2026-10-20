@@ -4,7 +4,8 @@ English portfolio for Ahmed Biram, Software Engineer and CTO & Co-founder at Emp
 
 ## Files
 
-- `dist/index.html` — portfolio page, illustrative interfaces and responsive styling. No build step or JavaScript dependencies.
+- `dist/index.html` — portfolio page and illustrative interfaces.
+- `dist/styles.css` — responsive dark-green visual design. No build step or JavaScript dependencies.
 - `Dockerfile` — Nginx container serving `dist/`.
 - `nginx.conf` — listens on port 8080, matching Fly.io.
 - `fly.toml` — small shared-CPU machine with HTTPS and automatic stop/start.
